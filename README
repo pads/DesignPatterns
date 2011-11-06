@@ -1,0 +1,5 @@
+Object Oriented Design Principles
+
+1. Identify what varies and keep it from what stays the same.
+2. Program to interfaces not implementations.
+3. Favour composition over inheritance.
