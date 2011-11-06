@@ -1,6 +1,6 @@
 package head.first.chapter1
 
-class Duck {
+abstract class Duck {
 
     FlyBehaviour flyBehaviour
     QuackBehaviour quackBehaviour
@@ -13,9 +13,9 @@ class Duck {
         quackBehaviour.quack()
     }
 
-    def display() {}
+    def abstract display()
 
     def swim() {
-        println 'Swimming'
+        println 'All ducks float, even decoys!'
     }
 }
