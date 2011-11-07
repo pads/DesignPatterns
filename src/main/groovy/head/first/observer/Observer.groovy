@@ -2,6 +2,6 @@ package head.first.observer
 
 interface Observer {
 
-    def update()
+    def update(float temperature, float humidity, float pressure)
 
 }

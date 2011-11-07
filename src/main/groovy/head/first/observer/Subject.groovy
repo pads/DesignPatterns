@@ -2,9 +2,9 @@ package head.first.observer
 
 interface Subject {
 
-    def registerObserver()
+    def registerObserver(Observer observer)
 
-    def removeObserver()
+    def removeObserver(Observer observer)
 
     def notifyObservers()
 
