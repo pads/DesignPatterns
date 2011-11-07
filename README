@@ -1,5 +1,23 @@
-Object Oriented Design Principles
+OO Basics
+---------
+
+Components can be objects, variables, methods etc...
+
+1. Abstraction - group together common components.
+2. Inheritance - extend and gain components from a parent.
+3. Polymorphism - entities that can take on multiple forms.
+4. Encapsulation - restrict access to components that logically sit together.
+
+OO Design Principles
+--------------------
 
 1. Identify what varies and keep it from what stays the same.
 2. Program to interfaces not implementations.
 3. Favour composition over inheritance.
+4. Aim for loosely coupled objects.
+
+OO Patterns
+-----------
+
+1. Strategy - interchangeable algorithms.
+2. Observer - publish/subscribe model.

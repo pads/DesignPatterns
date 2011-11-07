@@ -1,4 +1,4 @@
-package head.first.chapter1
+package head.first.strategy
 
 abstract class Duck {
 
